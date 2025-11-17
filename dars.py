@@ -1,6 +1,7 @@
 class magazin:
     def __init__(self, title,price,sanasi,muddati,type,email,phone):
         self.title=title
+        self.price=price
         self.sanasi=sanasi
         self.muddati=muddati
         self.type=type
@@ -32,4 +33,4 @@ def menejer_magazin(s:list):
             add_magazin(baza)
         else:
             break
-menejer_magazin(baza)
+# menejer_magazin(baza)
